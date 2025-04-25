@@ -12,12 +12,12 @@ const skillCategories = [
   {
     title: "Backend",
     icon: <Server className="h-6 w-6 text-red-500" />,
-    skills: ["Node.js", "Express", "Python", "Django", "REST API", "GraphQL"],
+    skills: ["Node.js", "Express", "Python", "Django", "REST API"],
   },
   {
     title: "Database",
     icon: <Database className="h-6 w-6 text-red-500" />,
-    skills: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Supabase", "Redis"],
+    skills: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Supabase"],
   },
   {
     title: "Design",
@@ -27,7 +27,7 @@ const skillCategories = [
   {
     title: "DevOps",
     icon: <Layers className="h-6 w-6 text-red-500" />,
-    skills: ["Git", "GitHub", "Docker", "CI/CD", "AWS", "Vercel", "Netlify"],
+    skills: ["Git", "GitHub", "Docker", "CI/CD", "Vercel"],
   },
   {
     title: "Other",

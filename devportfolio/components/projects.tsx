@@ -9,38 +9,55 @@ import Image from "next/image"
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce platform with product management, cart, and checkout functionality.",
-    image: "/placeholder.svg?height=300&width=600",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "Stubby",
+    description: "Stubby (Study Buddy) is a social study platform designed to help university students connect, collaborate, and grow together academically and personally. This mobile-first app matches students based on their courses, study styles, and academic goals, offering a seamless experience for finding study partners or making new friends.",
+    image: "/stubbyy.png?height=300&width=600",
+    tags: ["In Development"],
+
+  },
+
+  {
+    title: "WildSQUAD",
+    description: "WildSQUAD is an innovative autonomous aquatic drone designed to tackle waste pollution in coastal areas. Equipped with AI-powered systems, this drone autonomously detects, collects, and analyzes waste from water bodies, while ensuring minimal disruption to marine life.",
+    image: "/wild.png?height=300&width=600",
+    tags: ["React", "Express.js", "MongoDB", "Leaflet", "Tailwind CSS"],
+
+  },
+
+  {
+    title: "Sign Language Conversion Engine",
+    description: "A web app that uses a Raspberry Pi camera and machine learning to detect and interpret sign language gestures in real-time. The system converts hand signs into text, enabling seamless communication between deaf and hearing individuals. Built to bridge communication gaps, the engine integrates AI for gesture recognition and language translation.",
+    image: "/slicee.png?height=300&width=600",
+    tags: ["Raspberry Pi", "Keras", "OpenCV", "Machine Learning", "Python"],
+    githubUrl: "https://github.com/Kaazzz/SLICE-SignLanguageConversionEngine",
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates and team features.",
+    title: "RESIKLO",
+    description: "An AI-powered waste reduction and tracking platform that helps users live sustainably through real-time waste classification, personal progress tracking, and gamified social challenges. Features a YOLO-based image scanner, leaderboards, and rewards via business partnerships.",
+    image: "/resikloo.png?height=300&width=600",
+    tags: ["React Native", "YOLO", "TensorFlow", "Node.js", "Firebase"],
+    githubUrl: "https://github.com/drkcutie/cherry_on_top",
+  },
+  {
+    title: "The Technologian Student Press Website",
+    description: "The official digital publishing platform of The Technologian, designed to manage and publish student journalism with team collaboration, real-time updates, and modern UI/UX for campus readers.",
     image: "/techno.png?height=300&width=600",
-    tags: ["React", "Node.js", "Socket.io", "PostgreSQL", "Redux"],
-    demoUrl: "thetechnologian.com",
+    tags: ["Elementor", "WordPress"],
+    demoUrl: "https://thetechnologian.com",
     githubUrl: "#",
   },
   {
-    title: "Portfolio Website",
-    description: "A creative portfolio website for a digital artist showcasing their work with animations.",
-    image: "/placeholder.svg?height=300&width=600",
-    tags: ["Next.js", "Framer Motion", "Three.js", "GSAP", "Tailwind CSS"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "StudyHive",
+    description: "A study group coordination platform built to help students find, form, and manage study groups based on subjects, schedules, and academic goals. Offers session planning, chat, and progress tracking tools.",
+    image: "/studyhiveee.png?height=300&width=600",
+    tags: ["Django", "Tailwind CSS", "SQLite", "HTML", "CSS"],
+    githubUrl: "https://github.com/yourusername/studyhive",
   },
-  {
-    title: "Weather Dashboard",
-    description: "A weather dashboard with location search, forecasts, and interactive maps.",
-    image: "/placeholder.svg?height=300&width=600",
-    tags: ["React", "OpenWeather API", "Mapbox", "Chart.js", "Styled Components"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
-]
+
+
+];
+
+
 
 export default function Projects() {
   const container = {

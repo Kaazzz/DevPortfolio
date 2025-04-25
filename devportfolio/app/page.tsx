@@ -11,7 +11,7 @@ import Projects from "@/components/projects"
 import Experience from "@/components/experience"
 import Contact from "@/components/contact"
 import Navigation from "@/components/navigation"
-import ParticleBackground from "@/components/particle-background"
+import CustomCursor from "@/components/custom-cursor-alt"
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -25,7 +25,15 @@ export default function Home() {
 
   return (
     <div ref={containerRef} className="relative bg-background text-foreground">
-      <ParticleBackground />
+        <CustomCursor
+            color="#ff0000"
+            glowColor="#ff0000"
+            glowSize={15}
+            idleDelay={2000}
+            cursorStyle="pointer"
+            size={28}
+        />
+
 
       <div className="fixed bottom-8 right-8 z-50 flex flex-col gap-4">
         <div className="flex flex-col gap-2">
